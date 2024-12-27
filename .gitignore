@@ -1,0 +1,4 @@
+.DS_Store
+manifest.json
+node_modules/
+web-ext-artifacts/

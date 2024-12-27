@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBE284232D1E3694000643D7 /* AI Overview Hider for Google Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FBE284222D1E3694000643D7 /* AI Overview Hider for Google Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBE2842D2D1E3694000643D7 /* AI Overview Hider for Google Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FBE2842C2D1E3694000643D7 /* AI Overview Hider for Google Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBE284D22D1E3FDD000643D7 /* icon96.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284CF2D1E3FB7000643D7 /* icon96.png */; };
+		FBE284D32D1E3FDD000643D7 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284D02D1E3FB7000643D7 /* icon128.png */; };
+		FBE284D42D1E3FDD000643D7 /* icon256.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284D12D1E3FB7000643D7 /* icon256.png */; };
+		FBE284D52D1E3FDD000643D7 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284CE2D1E3FB7000643D7 /* icon48.png */; };
+		FBE284D62D1E3FDD000643D7 /* icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284CD2D1E3F76000643D7 /* icon512.png */; };
+		FBE284D72D1E3FDD000643D7 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284CE2D1E3FB7000643D7 /* icon48.png */; };
+		FBE284D82D1E3FDD000643D7 /* icon96.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284CF2D1E3FB7000643D7 /* icon96.png */; };
+		FBE284D92D1E3FDD000643D7 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284D02D1E3FB7000643D7 /* icon128.png */; };
+		FBE284DA2D1E3FDD000643D7 /* icon256.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284D12D1E3FB7000643D7 /* icon256.png */; };
+		FBE284DB2D1E3FDD000643D7 /* icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284CD2D1E3F76000643D7 /* icon512.png */; };
+		FBE284DD2D1E3FF1000643D7 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = FBE284DC2D1E3FF1000643D7 /* style.css */; };
+		FBE284DE2D1E3FF1000643D7 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = FBE284DC2D1E3FF1000643D7 /* style.css */; };
+		FBE284DF2D1E407A000643D7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE284CB2D1E3F50000643D7 /* SafariWebExtensionHandler.swift */; };
+		FBE284E02D1E407A000643D7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE284CB2D1E3F50000643D7 /* SafariWebExtensionHandler.swift */; };
+		FBE284EF2D1E41CC000643D7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284E62D1E418E000643D7 /* Icon.png */; };
+		FBE284F02D1E41CC000643D7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE284E62D1E418E000643D7 /* Icon.png */; };
+		FBE284F12D1E41D2000643D7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FBE284E82D1E418E000643D7 /* Main.html */; };
+		FBE284F22D1E41D2000643D7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FBE284E82D1E418E000643D7 /* Main.html */; };
+		FBE284F32D1E41D7000643D7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FBE284E92D1E418E000643D7 /* Script.js */; };
+		FBE284F42D1E41D7000643D7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FBE284E92D1E418E000643D7 /* Script.js */; };
+		FBE284F52D1E41DB000643D7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FBE284EA2D1E418E000643D7 /* Style.css */; };
+		FBE284F62D1E41DB000643D7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FBE284EA2D1E418E000643D7 /* Style.css */; };
+		FBE284F72D1E41E3000643D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE284EC2D1E418E000643D7 /* Assets.xcassets */; };
+		FBE284F82D1E41E3000643D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE284EC2D1E418E000643D7 /* Assets.xcassets */; };
+		FBE284F92D1E41E8000643D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE284ED2D1E418E000643D7 /* ViewController.swift */; };
+		FBE284FA2D1E41E8000643D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE284ED2D1E418E000643D7 /* ViewController.swift */; };
+		FBE284FB2D1E438C000643D7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FBE284C92D1E3F50000643D7 /* manifest.json */; };
+		FBE284FC2D1E438C000643D7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FBE284C92D1E3F50000643D7 /* manifest.json */; };
+		FBE285A32D1E5061000643D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE2859D2D1E5061000643D7 /* LaunchScreen.storyboard */; };
+		FBE285A42D1E5061000643D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE2859F2D1E5061000643D7 /* Main.storyboard */; };
+		FBE285A52D1E5061000643D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2859A2D1E5061000643D7 /* AppDelegate.swift */; };
+		FBE285A62D1E5061000643D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE285A02D1E5061000643D7 /* SceneDelegate.swift */; };
+		FBE285B02D1E5061000643D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE285AC2D1E5061000643D7 /* AppDelegate.swift */; };
+		FBE285B12D1E5061000643D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE285AE2D1E5061000643D7 /* Main.storyboard */; };
+		FBE285CC2D1E5E3C000643D7 /* toolbar-icon38.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285C92D1E5E3C000643D7 /* toolbar-icon38.png */; };
+		FBE285CD2D1E5E3C000643D7 /* toolbar-icon19.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285C72D1E5E3C000643D7 /* toolbar-icon19.png */; };
+		FBE285CE2D1E5E3C000643D7 /* toolbar-icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285CA2D1E5E3C000643D7 /* toolbar-icon48.png */; };
+		FBE285CF2D1E5E3C000643D7 /* toolbar-icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285CB2D1E5E3C000643D7 /* toolbar-icon72.png */; };
+		FBE285D02D1E5E3C000643D7 /* toolbar-icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285C82D1E5E3C000643D7 /* toolbar-icon32.png */; };
+		FBE285D12D1E5E3C000643D7 /* toolbar-icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285C62D1E5E3C000643D7 /* toolbar-icon16.png */; };
+		FBE285D22D1E5E3C000643D7 /* toolbar-icon38.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285C92D1E5E3C000643D7 /* toolbar-icon38.png */; };
+		FBE285D32D1E5E3C000643D7 /* toolbar-icon19.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285C72D1E5E3C000643D7 /* toolbar-icon19.png */; };
+		FBE285D42D1E5E3C000643D7 /* toolbar-icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285CA2D1E5E3C000643D7 /* toolbar-icon48.png */; };
+		FBE285D52D1E5E3C000643D7 /* toolbar-icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285CB2D1E5E3C000643D7 /* toolbar-icon72.png */; };
+		FBE285D62D1E5E3C000643D7 /* toolbar-icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285C82D1E5E3C000643D7 /* toolbar-icon32.png */; };
+		FBE285D72D1E5E3C000643D7 /* toolbar-icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE285C62D1E5E3C000643D7 /* toolbar-icon16.png */; };
+		FBE285DC2D1E6BA1000643D7 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FBE285DB2D1E6B91000643D7 /* _locales */; };
+		FBE285DD2D1E6BA1000643D7 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FBE285DB2D1E6B91000643D7 /* _locales */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBE284242D1E3694000643D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE283E82D1E3692000643D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE284212D1E3694000643D7;
+			remoteInfo = "AI Overview Hider for Google Extension (iOS)";
+		};
+		FBE2842E2D1E3694000643D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE283E82D1E3692000643D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE2842B2D1E3694000643D7;
+			remoteInfo = "AI Overview Hider for Google Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBE284562D1E3694000643D7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBE284232D1E3694000643D7 /* AI Overview Hider for Google Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE284602D1E3694000643D7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBE2842D2D1E3694000643D7 /* AI Overview Hider for Google Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBE284042D1E3694000643D7 /* AI Overview Hider for Google.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Overview Hider for Google.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE284162D1E3694000643D7 /* AI Overview Hider for Google.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Overview Hider for Google.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE284222D1E3694000643D7 /* AI Overview Hider for Google Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AI Overview Hider for Google Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE2842C2D1E3694000643D7 /* AI Overview Hider for Google Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AI Overview Hider for Google Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE284C92D1E3F50000643D7 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		FBE284CB2D1E3F50000643D7 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FBE284CD2D1E3F76000643D7 /* icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon512.png; path = ../icons/icon512.png; sourceTree = SOURCE_ROOT; };
+		FBE284CE2D1E3FB7000643D7 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = ../icons/icon48.png; sourceTree = SOURCE_ROOT; };
+		FBE284CF2D1E3FB7000643D7 /* icon96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon96.png; path = ../icons/icon96.png; sourceTree = SOURCE_ROOT; };
+		FBE284D02D1E3FB7000643D7 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = ../icons/icon128.png; sourceTree = SOURCE_ROOT; };
+		FBE284D12D1E3FB7000643D7 /* icon256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon256.png; path = ../icons/icon256.png; sourceTree = SOURCE_ROOT; };
+		FBE284DC2D1E3FF1000643D7 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = ../style.css; sourceTree = SOURCE_ROOT; };
+		FBE284E62D1E418E000643D7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FBE284E72D1E418E000643D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		FBE284E92D1E418E000643D7 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FBE284EA2D1E418E000643D7 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FBE284EC2D1E418E000643D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBE284ED2D1E418E000643D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBE285972D1E5061000643D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE2859A2D1E5061000643D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBE2859B2D1E5061000643D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE2859C2D1E5061000643D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBE2859E2D1E5061000643D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBE285A02D1E5061000643D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBE285A72D1E5061000643D7 /* AI Overview Hider for Google.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AI Overview Hider for Google.entitlements"; sourceTree = "<group>"; };
+		FBE285A82D1E5061000643D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE285AB2D1E5061000643D7 /* AI Overview Hider for Google.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AI Overview Hider for Google.entitlements"; sourceTree = "<group>"; };
+		FBE285AC2D1E5061000643D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBE285AD2D1E5061000643D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBE285C62D1E5E3C000643D7 /* toolbar-icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-icon16.png"; path = "../icons/toolbar-icon16.png"; sourceTree = SOURCE_ROOT; };
+		FBE285C72D1E5E3C000643D7 /* toolbar-icon19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-icon19.png"; path = "../icons/toolbar-icon19.png"; sourceTree = SOURCE_ROOT; };
+		FBE285C82D1E5E3C000643D7 /* toolbar-icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-icon32.png"; path = "../icons/toolbar-icon32.png"; sourceTree = SOURCE_ROOT; };
+		FBE285C92D1E5E3C000643D7 /* toolbar-icon38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-icon38.png"; path = "../icons/toolbar-icon38.png"; sourceTree = SOURCE_ROOT; };
+		FBE285CA2D1E5E3C000643D7 /* toolbar-icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-icon48.png"; path = "../icons/toolbar-icon48.png"; sourceTree = SOURCE_ROOT; };
+		FBE285CB2D1E5E3C000643D7 /* toolbar-icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-icon72.png"; path = "../icons/toolbar-icon72.png"; sourceTree = SOURCE_ROOT; };
+		FBE285DB2D1E6B91000643D7 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../../_locales; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE284012D1E3694000643D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE284132D1E3694000643D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE2841F2D1E3694000643D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE284292D1E3694000643D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBE283E72D1E3692000643D7 = {
+			isa = PBXGroup;
+			children = (
+				FBE284EE2D1E418E000643D7 /* Shared (App) */,
+				FBE284CC2D1E3F50000643D7 /* Shared (Extension) */,
+				FBE285A12D1E5061000643D7 /* iOS (App) */,
+				FBE285AF2D1E5061000643D7 /* macOS (App) */,
+				FBE285982D1E5061000643D7 /* iOS (Extension) */,
+				FBE285A92D1E5061000643D7 /* macOS (Extension) */,
+				FBE284052D1E3694000643D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE284052D1E3694000643D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE284042D1E3694000643D7 /* AI Overview Hider for Google.app */,
+				FBE284162D1E3694000643D7 /* AI Overview Hider for Google.app */,
+				FBE284222D1E3694000643D7 /* AI Overview Hider for Google Extension.appex */,
+				FBE2842C2D1E3694000643D7 /* AI Overview Hider for Google Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE284CA2D1E3F50000643D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBE285DB2D1E6B91000643D7 /* _locales */,
+				FBE284CE2D1E3FB7000643D7 /* icon48.png */,
+				FBE284CF2D1E3FB7000643D7 /* icon96.png */,
+				FBE285C62D1E5E3C000643D7 /* toolbar-icon16.png */,
+				FBE285C72D1E5E3C000643D7 /* toolbar-icon19.png */,
+				FBE285C82D1E5E3C000643D7 /* toolbar-icon32.png */,
+				FBE285C92D1E5E3C000643D7 /* toolbar-icon38.png */,
+				FBE285CA2D1E5E3C000643D7 /* toolbar-icon48.png */,
+				FBE285CB2D1E5E3C000643D7 /* toolbar-icon72.png */,
+				FBE284D02D1E3FB7000643D7 /* icon128.png */,
+				FBE284D12D1E3FB7000643D7 /* icon256.png */,
+				FBE284CD2D1E3F76000643D7 /* icon512.png */,
+				FBE284C92D1E3F50000643D7 /* manifest.json */,
+				FBE284DC2D1E3FF1000643D7 /* style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBE284CC2D1E3F50000643D7 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FBE284CA2D1E3F50000643D7 /* Resources */,
+				FBE284CB2D1E3F50000643D7 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		FBE284EB2D1E418E000643D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBE284E62D1E418E000643D7 /* Icon.png */,
+				FBE284E82D1E418E000643D7 /* Main.html */,
+				FBE284E92D1E418E000643D7 /* Script.js */,
+				FBE284EA2D1E418E000643D7 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBE284EE2D1E418E000643D7 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FBE284EB2D1E418E000643D7 /* Resources */,
+				FBE284EC2D1E418E000643D7 /* Assets.xcassets */,
+				FBE284ED2D1E418E000643D7 /* ViewController.swift */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		FBE285982D1E5061000643D7 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FBE285972D1E5061000643D7 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FBE285A12D1E5061000643D7 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FBE2859A2D1E5061000643D7 /* AppDelegate.swift */,
+				FBE2859B2D1E5061000643D7 /* Info.plist */,
+				FBE2859D2D1E5061000643D7 /* LaunchScreen.storyboard */,
+				FBE2859F2D1E5061000643D7 /* Main.storyboard */,
+				FBE285A02D1E5061000643D7 /* SceneDelegate.swift */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		FBE285A92D1E5061000643D7 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FBE285A72D1E5061000643D7 /* AI Overview Hider for Google.entitlements */,
+				FBE285A82D1E5061000643D7 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FBE285AF2D1E5061000643D7 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FBE285AB2D1E5061000643D7 /* AI Overview Hider for Google.entitlements */,
+				FBE285AC2D1E5061000643D7 /* AppDelegate.swift */,
+				FBE285AE2D1E5061000643D7 /* Main.storyboard */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE284032D1E3694000643D7 /* AI Overview Hider for Google (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE284572D1E3694000643D7 /* Build configuration list for PBXNativeTarget "AI Overview Hider for Google (iOS)" */;
+			buildPhases = (
+				FBE284002D1E3694000643D7 /* Sources */,
+				FBE284012D1E3694000643D7 /* Frameworks */,
+				FBE284022D1E3694000643D7 /* Resources */,
+				FBE284562D1E3694000643D7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE284252D1E3694000643D7 /* PBXTargetDependency */,
+			);
+			name = "AI Overview Hider for Google (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "AI Overview Hider for Google (iOS)";
+			productReference = FBE284042D1E3694000643D7 /* AI Overview Hider for Google.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBE284152D1E3694000643D7 /* AI Overview Hider for Google (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE284612D1E3694000643D7 /* Build configuration list for PBXNativeTarget "AI Overview Hider for Google (macOS)" */;
+			buildPhases = (
+				FBE284122D1E3694000643D7 /* Sources */,
+				FBE284132D1E3694000643D7 /* Frameworks */,
+				FBE284142D1E3694000643D7 /* Resources */,
+				FBE284602D1E3694000643D7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE2842F2D1E3694000643D7 /* PBXTargetDependency */,
+			);
+			name = "AI Overview Hider for Google (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "AI Overview Hider for Google (macOS)";
+			productReference = FBE284162D1E3694000643D7 /* AI Overview Hider for Google.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBE284212D1E3694000643D7 /* AI Overview Hider for Google Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE284522D1E3694000643D7 /* Build configuration list for PBXNativeTarget "AI Overview Hider for Google Extension (iOS)" */;
+			buildPhases = (
+				FBE2841E2D1E3694000643D7 /* Sources */,
+				FBE2841F2D1E3694000643D7 /* Frameworks */,
+				FBE284202D1E3694000643D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI Overview Hider for Google Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "AI Overview Hider for Google Extension (iOS)";
+			productReference = FBE284222D1E3694000643D7 /* AI Overview Hider for Google Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FBE2842B2D1E3694000643D7 /* AI Overview Hider for Google Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE2845C2D1E3694000643D7 /* Build configuration list for PBXNativeTarget "AI Overview Hider for Google Extension (macOS)" */;
+			buildPhases = (
+				FBE284282D1E3694000643D7 /* Sources */,
+				FBE284292D1E3694000643D7 /* Frameworks */,
+				FBE2842A2D1E3694000643D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI Overview Hider for Google Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "AI Overview Hider for Google Extension (macOS)";
+			productReference = FBE2842C2D1E3694000643D7 /* AI Overview Hider for Google Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE283E82D1E3692000643D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FBE284032D1E3694000643D7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FBE284152D1E3694000643D7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FBE284212D1E3694000643D7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FBE2842B2D1E3694000643D7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = FBE283EB2D1E3692000643D7 /* Build configuration list for PBXProject "AI Overview Hider for Google" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE283E72D1E3692000643D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBE284052D1E3694000643D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE284032D1E3694000643D7 /* AI Overview Hider for Google (iOS) */,
+				FBE284152D1E3694000643D7 /* AI Overview Hider for Google (macOS) */,
+				FBE284212D1E3694000643D7 /* AI Overview Hider for Google Extension (iOS) */,
+				FBE2842B2D1E3694000643D7 /* AI Overview Hider for Google Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE284022D1E3694000643D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE284EF2D1E41CC000643D7 /* Icon.png in Resources */,
+				FBE284F12D1E41D2000643D7 /* Main.html in Resources */,
+				FBE284F32D1E41D7000643D7 /* Script.js in Resources */,
+				FBE284F72D1E41E3000643D7 /* Assets.xcassets in Resources */,
+				FBE285A32D1E5061000643D7 /* LaunchScreen.storyboard in Resources */,
+				FBE285A42D1E5061000643D7 /* Main.storyboard in Resources */,
+				FBE284F52D1E41DB000643D7 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE284142D1E3694000643D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE284F02D1E41CC000643D7 /* Icon.png in Resources */,
+				FBE284F42D1E41D7000643D7 /* Script.js in Resources */,
+				FBE284F22D1E41D2000643D7 /* Main.html in Resources */,
+				FBE285B12D1E5061000643D7 /* Main.storyboard in Resources */,
+				FBE284F82D1E41E3000643D7 /* Assets.xcassets in Resources */,
+				FBE284F62D1E41DB000643D7 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE284202D1E3694000643D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE284D22D1E3FDD000643D7 /* icon96.png in Resources */,
+				FBE284DE2D1E3FF1000643D7 /* style.css in Resources */,
+				FBE285CC2D1E5E3C000643D7 /* toolbar-icon38.png in Resources */,
+				FBE285CD2D1E5E3C000643D7 /* toolbar-icon19.png in Resources */,
+				FBE285CE2D1E5E3C000643D7 /* toolbar-icon48.png in Resources */,
+				FBE285CF2D1E5E3C000643D7 /* toolbar-icon72.png in Resources */,
+				FBE285D02D1E5E3C000643D7 /* toolbar-icon32.png in Resources */,
+				FBE285D12D1E5E3C000643D7 /* toolbar-icon16.png in Resources */,
+				FBE284D32D1E3FDD000643D7 /* icon128.png in Resources */,
+				FBE284D42D1E3FDD000643D7 /* icon256.png in Resources */,
+				FBE284FB2D1E438C000643D7 /* manifest.json in Resources */,
+				FBE284D52D1E3FDD000643D7 /* icon48.png in Resources */,
+				FBE285DC2D1E6BA1000643D7 /* _locales in Resources */,
+				FBE284D62D1E3FDD000643D7 /* icon512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE2842A2D1E3694000643D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE284D72D1E3FDD000643D7 /* icon48.png in Resources */,
+				FBE284DD2D1E3FF1000643D7 /* style.css in Resources */,
+				FBE285D22D1E5E3C000643D7 /* toolbar-icon38.png in Resources */,
+				FBE285D32D1E5E3C000643D7 /* toolbar-icon19.png in Resources */,
+				FBE285D42D1E5E3C000643D7 /* toolbar-icon48.png in Resources */,
+				FBE285D52D1E5E3C000643D7 /* toolbar-icon72.png in Resources */,
+				FBE285D62D1E5E3C000643D7 /* toolbar-icon32.png in Resources */,
+				FBE285D72D1E5E3C000643D7 /* toolbar-icon16.png in Resources */,
+				FBE284D82D1E3FDD000643D7 /* icon96.png in Resources */,
+				FBE284D92D1E3FDD000643D7 /* icon128.png in Resources */,
+				FBE284FC2D1E438C000643D7 /* manifest.json in Resources */,
+				FBE284DA2D1E3FDD000643D7 /* icon256.png in Resources */,
+				FBE285DD2D1E6BA1000643D7 /* _locales in Resources */,
+				FBE284DB2D1E3FDD000643D7 /* icon512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE284002D1E3694000643D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE284F92D1E41E8000643D7 /* ViewController.swift in Sources */,
+				FBE285A52D1E5061000643D7 /* AppDelegate.swift in Sources */,
+				FBE285A62D1E5061000643D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE284122D1E3694000643D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE285B02D1E5061000643D7 /* AppDelegate.swift in Sources */,
+				FBE284FA2D1E41E8000643D7 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE2841E2D1E3694000643D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE284DF2D1E407A000643D7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE284282D1E3694000643D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE284E02D1E407A000643D7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE284252D1E3694000643D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE284212D1E3694000643D7 /* AI Overview Hider for Google Extension (iOS) */;
+			targetProxy = FBE284242D1E3694000643D7 /* PBXContainerItemProxy */;
+		};
+		FBE2842F2D1E3694000643D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE2842B2D1E3694000643D7 /* AI Overview Hider for Google Extension (macOS) */;
+			targetProxy = FBE2842E2D1E3694000643D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBE284E82D1E418E000643D7 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE284E72D1E418E000643D7 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FBE2859D2D1E5061000643D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE2859C2D1E5061000643D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FBE2859F2D1E5061000643D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE2859E2D1E5061000643D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBE285AE2D1E5061000643D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE285AD2D1E5061000643D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE284532D1E3694000643D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RDKJDLNY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Overview Hider for Google Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soitis.dev.AI-Overview-Hider-for-Google.Extension";
+				PRODUCT_NAME = "AI Overview Hider for Google Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBE284542D1E3694000643D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RDKJDLNY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Overview Hider for Google Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soitis.dev.AI-Overview-Hider-for-Google.Extension";
+				PRODUCT_NAME = "AI Overview Hider for Google Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE284582D1E3694000643D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RDKJDLNY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Overview Hider for Google";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soitis.dev.AI-Overview-Hider-for-Google";
+				PRODUCT_NAME = "AI Overview Hider for Google";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBE284592D1E3694000643D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RDKJDLNY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Overview Hider for Google";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soitis.dev.AI-Overview-Hider-for-Google";
+				PRODUCT_NAME = "AI Overview Hider for Google";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE2845D2D1E3694000643D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/AI Overview Hider for Google.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RDKJDLNY8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Overview Hider for Google Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soitis.dev.AI-Overview-Hider-for-Google.Extension";
+				PRODUCT_NAME = "AI Overview Hider for Google Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBE2845E2D1E3694000643D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/AI Overview Hider for Google.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RDKJDLNY8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Overview Hider for Google Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soitis.dev.AI-Overview-Hider-for-Google.Extension";
+				PRODUCT_NAME = "AI Overview Hider for Google Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FBE284622D1E3694000643D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/AI Overview Hider for Google.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RDKJDLNY8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Overview Hider for Google";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soitis.dev.AI-Overview-Hider-for-Google";
+				PRODUCT_NAME = "AI Overview Hider for Google";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBE284632D1E3694000643D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/AI Overview Hider for Google.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RDKJDLNY8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Overview Hider for Google";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soitis.dev.AI-Overview-Hider-for-Google";
+				PRODUCT_NAME = "AI Overview Hider for Google";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FBE284662D1E3694000643D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBE284672D1E3694000643D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE283EB2D1E3692000643D7 /* Build configuration list for PBXProject "AI Overview Hider for Google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE284662D1E3694000643D7 /* Debug */,
+				FBE284672D1E3694000643D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE284522D1E3694000643D7 /* Build configuration list for PBXNativeTarget "AI Overview Hider for Google Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE284532D1E3694000643D7 /* Debug */,
+				FBE284542D1E3694000643D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE284572D1E3694000643D7 /* Build configuration list for PBXNativeTarget "AI Overview Hider for Google (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE284582D1E3694000643D7 /* Debug */,
+				FBE284592D1E3694000643D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE2845C2D1E3694000643D7 /* Build configuration list for PBXNativeTarget "AI Overview Hider for Google Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE2845D2D1E3694000643D7 /* Debug */,
+				FBE2845E2D1E3694000643D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE284612D1E3694000643D7 /* Build configuration list for PBXNativeTarget "AI Overview Hider for Google (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE284622D1E3694000643D7 /* Debug */,
+				FBE284632D1E3694000643D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE283E82D1E3692000643D7 /* Project object */;
+}

@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "release": "node ./scripts/release.js",
+    "build": "node ./scripts/build.js",
+    "build-mv2": "node ./scripts/build.js 2",
+    "build-mv3": "node ./scripts/build.js 3",
+    "lint-mv2": "npm run copy-mv2 && web-ext lint",
+    "lint-mv3": "npm run copy-mv3 && web-ext lint",
+    "copy-mv2": "node ./scripts/copy.js manifest.mv2.json manifest.json",
+    "copy-mv3": "node ./scripts/copy.js manifest.mv3.json manifest.json"
+  },
+  "webExt": {
+    "ignoreFiles": [
+      "*.md",
+      "icons/*.sh",
+      "icons/*.svg",
+      "icons/icon256.png",
+      "icons/icon512.png",
+      "icons/toolbar-*.png",
+      "manifest.mv2.json",
+      "manifest.mv3.json",
+      "package.json",
+      "safari/",
+      "scripts/"
+    ]
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.x",
+    "semver": "7.x",
+    "web-ext": "8.x"
+  }
+}

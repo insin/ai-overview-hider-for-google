@@ -9,7 +9,7 @@ import SafariServices
 typealias PlatformViewController = NSViewController
 #endif
 
-let extensionBundleIdentifier = "soitis.dev.AI-Overview-Hider-for-Google.Extension"
+let extensionBundleIdentifier = "dev.soitis.AI-Overview-Hider-for-Google.Extension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 

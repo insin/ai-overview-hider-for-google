@@ -3,7 +3,7 @@
   "default_locale": "en",
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "homepage_url": "https://jbscript.dev/extensions",
+  "homepage_url": "https://soitis.dev/ai-overview-hider-for-google",
   "version": "1.0.0",
   "icons": {
     "48": "icon48.png",

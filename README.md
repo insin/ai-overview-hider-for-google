@@ -26,4 +26,4 @@ Please include:
 
 If you don't have a GitHub account, post bug details or feature requests to [@soitis.dev](https://bsky.app/profile/soitis.dev) on Bluesky.
 
-If you don't have a Bluesky account, or want to provide more information than a post allows, send an email to [extension@soitis.dev](mailto:extension@soitis.dev).
+If you don't have a Bluesky account, or want to provide more information than a post allows, send an email to [extensions@soitis.dev](mailto:extensions@soitis.dev).

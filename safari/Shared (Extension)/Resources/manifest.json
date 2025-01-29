@@ -4,7 +4,7 @@
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "homepage_url": "https://soitis.dev/ai-overview-hider-for-google",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "icons": {
     "48": "icon48.png",
     "96": "icon96.png",

@@ -9,21 +9,19 @@
 > [!IMPORTANT]
 > This is the support repository for AI Overview Hider for Google - for installation links, information about the extension, screenshots, and FAQs, please visit the [AI Overview Hider for Google website](https://soitis.dev/ai-overview-hider-for-google).
 
-Follow [@soitis.dev](https://bsky.app/profile/soitis.dev) on Bluesky for extension updates and other announcements.
+Check the latest updates and availability for your browser on the [releases page](https://github.com/insin/ai-overview-hider-for-google/releases).
 
-Check the availability of the latest updates for your browser on the [releases page](https://github.com/insin/ai-overview-hider-for-google/releases).
+Follow [@soitis.dev](https://bsky.app/profile/soitis.dev) on Bluesky for extension news and other announcements.
 
 ## Support
 
-To report a bug, [create a new Issue](https://github.com/insin/ai-overview-hider-for-google/issues/new).
+To report a bug, [create a new Issue](https://github.com/insin/ai-overview-hider-for-google/issues/new) here on GitHub.
 
 Please include:
 
-- The version of the extension you're using
+- The version of AI Overview Hider for Google you're using
 - The browser and operating system you're using it on
-- Relevant URLs if applicable
+- Relevant URLs if applicable (e.g. specific search results the AI Overview isn't being hidden for)
 - Relevant screenshots if applicable
 
-If you don't have a GitHub account, post bug details or feature requests to [@soitis.dev](https://bsky.app/profile/soitis.dev) on Bluesky.
-
-If you don't have a Bluesky account, or want to provide more information than a post allows, send an email to [extensions@soitis.dev](mailto:extensions@soitis.dev).
+If you don't have a GitHub account, you can use the [Browser Extension Feedback & Support form](https://soitis.dev/extensions/feedback) on our website instead, or email [extensions@soitis.dev](mailto:extensions@soitis.dev).

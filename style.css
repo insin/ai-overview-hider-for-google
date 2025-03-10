@@ -1,17 +1,19 @@
 /* Desktop */
 @media (hover: hover) {
   /* Pre-rendered AI Overview, e.g. https://www.google.com/search?q=encanto+2+plot */
-  #rcnt > style:first-child + div > div[data-hveid] > div[data-hveid] > div[id] > div:has(a[href^="https://support.google.com/websearch?p=ai_overviews"]) {
+  #rcnt > style:first-child + div > div[data-hveid] > div[data-hveid] > div[id] > div:has(a[href^="https://support.google.com/websearch?p=ai_overviews"]),
+  /* No wrapper div[id] variant, e.g. https://www.google.com/search?q=plagiarism */
+  #rcnt > style:first-child + div > div[data-hveid] > div[data-hveid] > div[class]:has(a[href^="https://support.google.com/websearch?p=ai_overviews"]) {
     display: none;
   }
-  #rcnt > style:first-child + div > div[data-hveid] > div[data-hveid] > div[id]:has(a[href^="https://support.google.com/websearch?p=ai_overviews"]) {
+  #rcnt > style:first-child + div > div[data-hveid] > div[data-hveid]:has(a[href^="https://support.google.com/websearch?p=ai_overviews"]) {
     margin-top: 30px;
   }
 
   /* Dynamic AI Overview, which displays Searching…, Generating…
   /* Wrapper div[id] variant, e.g. https://www.google.com/search?q=biggest+oil+spills+in+history */
   #rcnt > style:first-child + div > div[data-hveid] > div[data-hveid] > div[id] > div:has([data-async-type="folsrch"]),
-  /* No wrapper div[id] variant, e.g. https://www.google.com/search?q=plagiarism */
+  /* No wrapper div[id] variant, e.g. https://www.google.com/search?q=constitutionalism */
   #rcnt > style:first-child + div > div[data-hveid] > div[data-hveid] > div[class]:has([data-async-type="folsrch"]) {
     display: none;
   }

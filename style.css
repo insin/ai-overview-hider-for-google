@@ -25,6 +25,11 @@
   #kp-wp-tab-overview > div:first-child:has(a[href^="https://support.google.com/websearch?p=ai_overviews"]) {
     display: none;
   }
+
+  /* AI Overview in "People also ask" items, e.g. expand items under https://www.google.com/search?q=when+did+the+earth+reach+billion to load more */
+  div[data-initq] div[jsname]:has(> div[id] > div[data-q] a[href^="https://support.google.com/websearch?p=ai_overviews"]) {
+    display: none;
+  }
 }
 
 /* Mobile */

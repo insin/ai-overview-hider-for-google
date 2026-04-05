@@ -4,6 +4,10 @@
   .YzCcne {
     display: none;
   }
+  /* AI Overviews in "People also ask" */
+  div[data-initq] div[jsname]:has(> div[id] > div[data-q] .YzCcne) {
+    display: none;
+  }
 
   /* Structural fallbacks for elements containing the "Learn more" link */
   /* Pre-rendered AI Overview, e.g. https://www.google.com/search?q=encanto+2+plot */

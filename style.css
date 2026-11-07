@@ -34,6 +34,15 @@ div[data-initq] div[jsname]:has(> div[id] > div[data-q] .YzCcne) {
   display: none;
 }
 
+/* Recent Google redesigns remove the legacy support link and Gemini logo path, so hide the
+   AI Overview card by its heading/section structure instead. */
+#rcnt > style:first-child + div > div[data-hveid] > div[data-hveid] > div[id] > div:has(div[role="heading"]),
+#rcnt > style:first-child + div > div[data-hveid] > div[data-hveid] > div[class]:has(div[role="heading"]),
+#rso div.ULSxyf:has(div[role="heading"]),
+#kp-wp-tab-overview > div:first-child:has(div[role="heading"]) {
+  display: none;
+}
+
 /* Mobile site */
 @media (hover: none) {
   /* First item in regular search results, e.g. https://www.google.com/search?q=encanto+2+plot */
@@ -50,6 +59,11 @@ div[data-initq] div[jsname]:has(> div[id] > div[data-q] .YzCcne) {
   }
   /* As a search result section, e.g. I got this refreshing https://www.google.ca/search?q=hide+google+ai+overviews while signed out */
   #rso > div.MjjYud:has(path[d^="M235.5 471C235.5 438.423 229.22 407.807"]) {
+    display: none;
+  }
+  /* New mobile layout with the AI Overview heading but no legacy icon/link */
+  h1 + div[data-async-context] > div:first-child:not(:only-child):has(div[role="heading"]),
+  #rso > div.MjjYud:has(div[role="heading"]) {
     display: none;
   }
 }
